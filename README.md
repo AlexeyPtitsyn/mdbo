@@ -11,7 +11,7 @@ Objects that stored in MySQL database such way is compatible with JSON format. T
 *(Database structure is stored in `example/example.sql`)*
 
 ```php
-requrie_once __DIR__ . 'inc/mdbo.php';
+require_once __DIR__ . 'inc/mdbo.php';
 
 $dbName = 'dbobjects';
 $dbHost = 'localhost';
